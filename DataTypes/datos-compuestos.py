@@ -24,6 +24,16 @@ print(conjunto)
 conjunto={"Este es el conjunto editado ya que no podemos editarlo por índice"}
 print(conjunto)
 
+set_from_string = set("set a través de un string")
+print(set_from_string)
+
+set_from_tuples = set(('abc', 'cbc', 'dagga', 'abc'))
+print(set_from_tuples)
+
+numbers=[1,2,3,4,4,5,5]
+set_from_lists = set(numbers)
+print(set_from_lists)
+
 #Diccionario / dict, just like a list, but unordered
 # "key" : "value"
 """
