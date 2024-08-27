@@ -24,4 +24,5 @@ keys() - devuelve las claves / También podemos iterar /  devuelve un objeto de 
 get()- devuelve el valor de una clave / si hay un error, el programa no se detiene, continua
 pop() - elimina un elemento
 items() - para iterar el dict / También podemos iterar / este es el bueno para iterar porque nos da un método dict_items
+update({"profesion":"Ingeniero"}) - Ingresa al final del diccionario este nuevo diccionario
 """

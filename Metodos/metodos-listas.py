@@ -5,6 +5,11 @@ lista2 = ["nikmilan",24,2000,"DF"]
 lista_num = [20,30,60,1,22,55,101,9,99,101]
 #Son dos maneras de declarar una lista
 
+#Listas de compresión
+numeros=[1,2,3,4,5,6,7,8,9,10]
+cuadrados=[x**2 for x in numeros if x%2==0]
+print(cuadrados)
+
 #lista.append("Soto")
 #lista.insert(0,"RememberWhoYouAre")
 #lista.extend([False,1,28,2018])
