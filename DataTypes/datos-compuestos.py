@@ -14,6 +14,8 @@ print(tupla[0])
 print(tupla[1])
 """print(tupla[2])
 print(tupla[3])"""
+print("Noe Millan" in tupla) #With the 'in' operator we know if an element is in that tuple. If yes, return True.
+print("nikmilan123" not in tupla) #With the 'not in' operator we know if not an element is in that tuple. If yes, return True.
 
 #Set / Conjunto, elements that are disordered and can change
 #Does not allow repeating values or data, deletes it automatically
